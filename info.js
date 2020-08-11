@@ -1,7 +1,7 @@
-function password(input)
+function password()
 {
     var pass = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}$/;
-    if(input.value.match(pass))
+    if(document.pswd.value.match(pass))
     {
         return true;
     }
