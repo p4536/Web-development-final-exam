@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charser="UTF-8">
+<head>
+<title>Priyal Brahmbhatt</title>
+</head>
+<link rel='stylesheet' href='normalize.css' type='text/css' media='screen'>
+<link rel="icon" href = "Logo.png"/>
+<head>
+<script src="info.js"></script>
+</head>
+<div class="container">
+<body>
+<div id = "header">
+<header>
+<h1>INFO</h1>
+</header>
+</div>
+<div id ="links">
+<aside>
+<nav>
+<ul>
+<li> <a href ="honesty.html"> honesty </a></li>
+<li> <a href ="info.html"> info </a></li>
+<li> <a href ="reflection.html"> reflection </a></li>
+</ul>
+</nav>
+</aside>
+</div>
+<div id="body">
+<section class="main">
+<form name="signup" method = "POST"
+action ="https://httpbin.org/post"
+onsubmit = "return formValid(this);">
+
+<input type="hidden" name="lastName" id="lastName" value="Brahmbhatt"/>
+<input type="hidden" name="studentId" id="studentId" value="134224195"/>
+<div id = "form">
+<label>First name:</label>
+<label style ="color: red">*</label>
+<input type="text" name="Firstname" maxlength = "50" pattern = "^[A-Z]+[a-zA-Z]*$" required>
+<br>
+<br>
+<label>Last name:</label>
+<label style ="color: red">*</label>
+<input type="text" name="Lastname" axlength = "50" pattern = "^[A-Z]+[a-zA-Z]*$" required>
+<br>
+<br>
+<label>Password:</label>
+<label style ="color: red">*</label>
+<input type="password" name="pswd" required>
+<br>
+<br>
+<label>Renter:</label>
+<label style = "color: red">*</label>
+<input type="password" name="repswd" required>
+<br>
+<br>
+<label>Username:</label>
+<label style ="color: red">*</label>
+<input type="text" name="uName" required>
+<br>
+<br>
+<label>Education Level:</label>
+<label style ="color: red">*</label>
+<select id="Elevel" name="Elevel" required>
+<option selected="" value="">-select-</option>
+<option value="Technical">Technical</option>
+<option value="Diploma">Diploma</option>
+<option value="College Diploma">College Diploma</option>
+<option value="Bachelor's Degree">Bachelor's Degree</option>
+<option value="Master's Degree">Master's Degree</option>
+<option value="Others">Others</option>
+</select>
+<br>
+<br>
+<label>Education Status:<br></label>
+<label style ="color: red">*</label>
+<input type="radio" name="ES" id = "Graduated" required>
+<label for="Graduated"> Graduated </label>
+<input type="radio" name="ES" id="CurrentEnrolled" required>
+<label for="Current enrolled"> Current enrolled</label>
+<input type="radio" name="ES" id="DidNotGraduate" required>
+<label for="Did not Graduate">Did not Graduate</label>
+<br>
+<br>
+<lable>Email:</lable>
+<label style ="color: red">*</label>
+<input type="email" name="email" required>
+<br>
+<br>
+<label>Age:</label>
+<label style ="color: red">*</label>
+<input type="number" name="age" min="18" max="60" required>
+<br>
+<br>
+<input type="reset" value="Reset">
+<input type = "submit" value = "submit">
+
+</div>
+</form>
+</section>
+</div>
+<div id = "side">
+<h2>SIDE PANEL</h2>
+</div>
+<div id="footer">
+<footer>
+<h1>FOOTER</h1>
+</footer>
+</body>
+</div>
+</div> 
+</div>
+</html>

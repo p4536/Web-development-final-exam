@@ -1,0 +1,115 @@
+.container
+{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: #00FFFF;
+}
+
+#header
+{
+  border-radius: 25px;
+  border: 2px solid #8B0000;
+  text-align: center;
+  color: #FF1493;
+  padding: 20px;
+  height: 80px;
+  background-color: white;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+  background-image: url("Logo.png");
+  background-repeat: no-repeat;
+  background-position:  25%;
+}
+
+#links
+{
+    width: 20%;
+    float: left;
+    margin-right: 10px;
+    height: 400px;
+    border: 2px solid #8B0000;
+    margin-bottom: 30px;
+    background-color: white;
+    margin-left:55px;
+    
+}
+a:link
+{
+    color: purple;
+}
+a:visited
+{
+    color:red;
+}
+a:hover 
+{
+    color:blue;
+}
+a:active 
+{
+    color: yellow;
+} 
+
+#body
+{
+    width: 50%;
+    float: left;
+    height: 400px;
+    border: 2px solid #8B0000;
+    margin-bottom: 30px;
+    background-color: white;
+    text-align: left;
+    
+}
+
+p
+{
+    margin-left: 10%;
+}
+
+#side
+{
+    width: 20%;
+    float: left;
+    margin-right: 10px;
+    height: 200px;
+    border: 2px solid #8B0000;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+#footer
+{
+    clear: both;
+    border-radius: 25px;
+    border: 2px solid #8B0000;
+    text-align: center;
+    color: #FF1493;
+    padding: 20px;
+    height: 80px;
+    background-color: white;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+
+#form
+{
+    margin-left: 30%;
+}
+
+#ref p
+{
+    margin-left: 3%;
+    font-size: 13px;
+}
+
